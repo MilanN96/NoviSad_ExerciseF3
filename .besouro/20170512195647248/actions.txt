@@ -98,3 +98,13 @@ RefactoringAction 1494615737145 PlanetExplorer.java RENAME signa=>void check() M
 RefactoringAction 1494615761275 PlanetExplorer.java ADD boolean signal FIELD
 RefactoringAction 1494615823377 PlanetExplorer.java REMOVE PlanetExplorer(int, int) METHOD
 EditAction 1494615872722 TestPlanetExplorer.java 829 4 9 4
+UnitTestCaseAction 1494615877338 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494615877340 TestPlanetExplorer.java OK
+RefactoringAction 1494615903140 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1494615905673 TestPlanetExplorer.java RENAME test=>void testObstacles FIELD
+RefactoringAction 1494615907705 TestPlanetExplorer.java RENAME testObstacles=>void testObstacles() METHOD
+RefactoringAction 1494616235781 PlanetExplorer.java RENAME arl=>String ArrayList FIELD
+RefactoringAction 1494616241890 PlanetExplorer.java RENAME ArrayList=>String FIELD
+RefactoringAction 1494616244944 PlanetExplorer.java RENAME obstacles/2=>String FIELD
+RefactoringAction 1494616246990 PlanetExplorer.java RENAME obstaclesT=>String FIELD
+RefactoringAction 1494616248527 PlanetExplorer.java RENAME obstacles/2=>String FIELD
