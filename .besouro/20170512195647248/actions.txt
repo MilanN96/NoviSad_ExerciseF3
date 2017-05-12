@@ -46,3 +46,26 @@ UnitTestSessionAction 1494614005709 TestPlanetExplorer.java OK
 RefactoringAction 1494614056531 TestPlanetExplorer.java ADD void testcoml()/2 METHOD
 RefactoringAction 1494614059057 TestPlanetExplorer.java RENAME testcoml()/2=>void testcomr() METHOD
 EditAction 1494614069068 TestPlanetExplorer.java 817 4 9 4
+UnitTestCaseAction 1494614073090 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494614073092 TestPlanetExplorer.java OK
+RefactoringAction 1494614252711 PlanetExplorer.java ADD ArrayList lista FIELD
+RefactoringAction 1494614263294 PlanetExplorer.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1494614296625 PlanetExplorer.java REMOVE lista FIELD
+RefactoringAction 1494614298653 PlanetExplorer.java ADD ArrayList<> lista FIELD
+RefactoringAction 1494614305275 PlanetExplorer.java REMOVE lista FIELD
+RefactoringAction 1494614315401 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1494614327483 PlanetExplorer.java REMOVE array FIELD
+RefactoringAction 1494614351545 PlanetExplorer.java ADD ArrayList<Integer> arl FIELD
+RefactoringAction 1494614535651 PlanetExplorerException.java ADD PlanetExplorerException() METHOD
+RefactoringAction 1494614535653 PlanetExplorerException.java ADD PlanetExplorerException(String) METHOD
+RefactoringAction 1494614657668 PlanetExplorer.java ADD void signal() METHOD
+RefactoringAction 1494614707278 PlanetExplorer.java RENAME signal()=><initializer /1> null
+RefactoringAction 1494614709316 PlanetExplorer.java RENAME <initializer /1>=>void obstacle() METHOD
+RefactoringAction 1494614710383 PlanetExplorer.java RENAME obstacle()=>void obstacles() METHOD
+RefactoringAction 1494615191773 TestPlanetExplorer.java ADD void test_command_ifis_W_andgoCommandF() METHOD
+RefactoringAction 1494615219399 TestPlanetExplorer.java RENAME test_command_ifis_W_andgoCommandF()=>void test_co() METHOD
+RefactoringAction 1494615220428 TestPlanetExplorer.java RENAME test_co()=>void test_command_ifis_W_andgoCommandF() METHOD
+RefactoringAction 1494615234481 TestPlanetExplorer.java RENAME test_command_ifis_W_andgoCommandF()=>void test_() METHOD
+RefactoringAction 1494615238508 TestPlanetExplorer.java RENAME test_()=>void testf() METHOD
+RefactoringAction 1494615241066 TestPlanetExplorer.java RENAME testf()=>void testfWthenF() METHOD
+EditAction 1494615269658 PlanetExplorerException.java 182 2 2 0
