@@ -29,6 +29,13 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0,0,W)",plex.executeCommand("l"));
 	}
+	@Test
+	public void testcomr ()
+	{
+		PlanetExplorer  plex = new PlanetExplorer(10,10,"");
+		
+		assertEquals("(0,0,E)",plex.executeCommand("r"));
+	}
 	
 
 }

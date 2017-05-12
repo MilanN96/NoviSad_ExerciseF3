@@ -41,3 +41,8 @@ UnitTestSessionAction 1494613889284 TestPlanetExplorer.java OK
 RefactoringAction 1494613969893 TestPlanetExplorer.java ADD void testcomb()/2 METHOD
 RefactoringAction 1494613973922 TestPlanetExplorer.java RENAME testcomb()/2=>void testcoml() METHOD
 EditAction 1494614001575 TestPlanetExplorer.java 669 3 7 3
+UnitTestCaseAction 1494614005707 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494614005709 TestPlanetExplorer.java OK
+RefactoringAction 1494614056531 TestPlanetExplorer.java ADD void testcoml()/2 METHOD
+RefactoringAction 1494614059057 TestPlanetExplorer.java RENAME testcoml()/2=>void testcomr() METHOD
+EditAction 1494614069068 TestPlanetExplorer.java 817 4 9 4
