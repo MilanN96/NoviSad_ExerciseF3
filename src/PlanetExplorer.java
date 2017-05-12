@@ -39,6 +39,7 @@ public class PlanetExplorer {
 	    	   {
 	    		   return false;
 	    	   }
+	    	   return true;
 	       }
 	       return true;
 	}
