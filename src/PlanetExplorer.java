@@ -80,7 +80,7 @@ public class PlanetExplorer {
 				{
 					if(obstacles())
 					xPos++;
-					obstacles();
+					
 					
 					
 				}
@@ -88,7 +88,7 @@ public class PlanetExplorer {
 				{
 					if(obstacles())
 					xPos--;
-					obstacles();
+					
 				}
 				
 			}
@@ -102,13 +102,13 @@ public class PlanetExplorer {
 				{
 					if(obstacles())
 					yPos++;
-					obstacles();
+					
 				}
 				else if(command=="b")
 				{
 					if(obstacles())
 					yPos--;
-					obstacles();
+					
 				}
 			}
 			

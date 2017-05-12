@@ -88,3 +88,6 @@ RefactoringAction 1494615590832 PlanetExplorer.java RENAME PlanetExplorer(int, i
 UnitTestCaseAction 1494615597418 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494615597420 TestPlanetExplorer.java FAIL
 EditAction 1494615605944 TestPlanetExplorer.java 821 4 9 4
+UnitTestCaseAction 1494615610190 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615610191 TestPlanetExplorer.java FAIL
+EditAction 1494615633616 PlanetExplorer.java 2925 4 14 0
