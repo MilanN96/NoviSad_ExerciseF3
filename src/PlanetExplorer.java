@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 // Before you commit and push write your student ID and finish time here.
-// Finish time:
+// Finish time:21:2
 // Student ID:it8/2015
 
 public class PlanetExplorer {
@@ -13,6 +13,7 @@ public class PlanetExplorer {
 	private boolean signal = false;
 	private String obstacles;
 	private String [] obstaclesArray;
+	private String [] obstaclesHit;
 	ArrayList<Integer> arl = new ArrayList<Integer>();
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -51,6 +52,8 @@ public class PlanetExplorer {
 	       {
 	    	   if(xPos==arl.get(i)&&yPos==arl.get(i+1))
 	    	   {
+	    		   obstaclesHit[i]=Integer.toString(arl.get(i));
+	    		   obstaclesHit[i+1]=Integer.toString(arl.get(i+1));
 	    		   return false;
 	    	   }
 	    	   return true;
@@ -129,9 +132,10 @@ public class PlanetExplorer {
 				direction="E";
 				
 			}
-			
+			if(signal==false)
 			return "("+xPos+","+yPos+","+direction+")";
-		 
+			else 
+				return "("+xPos+","+yPos+","+direction+")"+"("+obstaclesHit[1]+","+obstaclesHit[2]+")";
 		
 	}
 }
