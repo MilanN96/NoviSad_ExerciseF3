@@ -33,3 +33,6 @@ RefactoringAction 1494613691515 TestPlanetExplorer.java RENAME testcom=>void tes
 RefactoringAction 1494613693541 TestPlanetExplorer.java RENAME testcoml=>void testcomb FIELD
 RefactoringAction 1494613694567 TestPlanetExplorer.java RENAME testcomb=>void testcomb() METHOD
 EditAction 1494613851760 TestPlanetExplorer.java 490 2 4 2
+UnitTestCaseAction 1494613855869 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494613855870 TestPlanetExplorer.java FAIL
+EditAction 1494613885584 TestPlanetExplorer.java 518 2 5 2

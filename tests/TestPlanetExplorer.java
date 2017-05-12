@@ -19,6 +19,7 @@ public class TestPlanetExplorer {
 	public void testcomb ()
 	{
 		PlanetExplorer  plex = new PlanetExplorer(10,10,"");
+		plex.executeCommand("f");
 		assertEquals("(0,0,N)",plex.executeCommand("b"));
 	}
 }
