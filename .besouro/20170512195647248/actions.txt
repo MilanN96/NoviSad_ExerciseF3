@@ -36,3 +36,8 @@ EditAction 1494613851760 TestPlanetExplorer.java 490 2 4 2
 UnitTestCaseAction 1494613855869 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494613855870 TestPlanetExplorer.java FAIL
 EditAction 1494613885584 TestPlanetExplorer.java 518 2 5 2
+UnitTestCaseAction 1494613889281 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494613889284 TestPlanetExplorer.java OK
+RefactoringAction 1494613969893 TestPlanetExplorer.java ADD void testcomb()/2 METHOD
+RefactoringAction 1494613973922 TestPlanetExplorer.java RENAME testcomb()/2=>void testcoml() METHOD
+EditAction 1494614001575 TestPlanetExplorer.java 669 3 7 3

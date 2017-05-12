@@ -22,4 +22,13 @@ public class TestPlanetExplorer {
 		plex.executeCommand("f");
 		assertEquals("(0,0,N)",plex.executeCommand("b"));
 	}
+	@Test
+	public void testcoml ()
+	{
+		PlanetExplorer  plex = new PlanetExplorer(10,10,"");
+		
+		assertEquals("(0,0,W)",plex.executeCommand("l"));
+	}
+	
+
 }
