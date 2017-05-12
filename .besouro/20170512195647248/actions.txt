@@ -70,3 +70,4 @@ RefactoringAction 1494615238508 TestPlanetExplorer.java RENAME test_()=>void tes
 RefactoringAction 1494615241066 TestPlanetExplorer.java RENAME testf()=>void testfWthenF() METHOD
 EditAction 1494615269658 PlanetExplorerException.java 182 2 2 0
 EditAction 1494615273243 PlanetExplorer.java 2872 3 12 0
+EditAction 1494615276794 TestPlanetExplorer.java 1022 5 13 5

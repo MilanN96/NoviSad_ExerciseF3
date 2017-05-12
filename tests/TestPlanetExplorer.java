@@ -37,5 +37,14 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,E)",plex.executeCommand("r"));
 	}
 	
+	@Test
+	public void testfWthenF() {
+		PlanetExplorer plex=new PlanetExplorer(10,10,"");
+		plex.executeCommand("f");
+		plex.executeCommand("r");
+		
+		assertEquals("(1,1,E)",plex.executeCommand("f"));	
+	}
+	
 
 }
