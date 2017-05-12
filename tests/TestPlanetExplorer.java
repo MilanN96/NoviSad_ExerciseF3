@@ -12,7 +12,7 @@ public class TestPlanetExplorer {
 	@Test 
 	public void testcomf () throws Exception 
 	{
-		PlanetExplorer plex = new PlanetExplorer(10, 10, "");
+		PlanetExplorer plex = new PlanetExplorer(10, 10, "(5,5)");
 		assertEquals("(0,1,N)",plex.executeCommand("f"));
 	}
 	@Test

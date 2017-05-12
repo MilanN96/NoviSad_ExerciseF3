@@ -75,3 +75,6 @@ UnitTestCaseAction 1494615281820 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494615281823 TestPlanetExplorer.java FAIL
 RefactoringAction 1494615322441 TestPlanetExplorer.java REMOVE testfWthenF() METHOD
 EditAction 1494615324657 TestPlanetExplorer.java 821 4 9 4
+UnitTestCaseAction 1494615329634 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615329636 TestPlanetExplorer.java FAIL
+EditAction 1494615383652 TestPlanetExplorer.java 826 4 9 4
