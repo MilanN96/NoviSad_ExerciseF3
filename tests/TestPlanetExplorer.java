@@ -10,9 +10,15 @@ public class TestPlanetExplorer {
 	}*/
 	
 	@Test 
-	public void testMoveN ()
+	public void testcomf () throws Exception 
 	{
 		PlanetExplorer plex = new PlanetExplorer(10, 10, "");
 		assertEquals("(0,1,N)",plex.executeCommand("f"));
+	}
+	@Test
+	public void testcomb ()
+	{
+		PlanetExplorer  plex = new PlanetExplorer(10,10,"");
+		assertEquals("(0,0,N)",plex.executeCommand("b"));
 	}
 }
