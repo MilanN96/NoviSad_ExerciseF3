@@ -91,3 +91,10 @@ EditAction 1494615605944 TestPlanetExplorer.java 821 4 9 4
 UnitTestCaseAction 1494615610190 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494615610191 TestPlanetExplorer.java FAIL
 EditAction 1494615633616 PlanetExplorer.java 2925 4 14 0
+UnitTestCaseAction 1494615639245 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615639248 TestPlanetExplorer.java FAIL
+RefactoringAction 1494615729591 PlanetExplorer.java ADD void signa FIELD
+RefactoringAction 1494615737145 PlanetExplorer.java RENAME signa=>void check() METHOD
+RefactoringAction 1494615761275 PlanetExplorer.java ADD boolean signal FIELD
+RefactoringAction 1494615823377 PlanetExplorer.java REMOVE PlanetExplorer(int, int) METHOD
+EditAction 1494615872722 TestPlanetExplorer.java 829 4 9 4

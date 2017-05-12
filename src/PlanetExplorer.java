@@ -10,6 +10,7 @@ public class PlanetExplorer {
 	private int y;
 	private int yPos;
 	private int xPos;
+	private boolean signal = false;
 	private String obstacles;
 	private String [] obstaclesArray;
 	ArrayList<Integer> arl = new ArrayList<Integer>();
@@ -26,15 +27,21 @@ public class PlanetExplorer {
 		this.obstacles=obstacles;
 		
 	}
-	public PlanetExplorer(int x, int y){
-		
-			this.x=x;
-			this.y=y;
-			
-			
+	
+	public void check() {
+		if(obstacles==null)
+		{
+			signal = false;
 		}
+		else 
+		{
+			signal = true;
+		}
+	}
 	public boolean obstacles()
 	{
+		if(signal==true)
+		{
 		obstaclesArray = obstacles.split("//(|//,|//)");
 	       for(int i=0;i<obstaclesArray.length;i++)
 	       {
@@ -48,6 +55,7 @@ public class PlanetExplorer {
 	    	   }
 	    	   return true;
 	       }
+		}
 	       return true;
 	}
 	
