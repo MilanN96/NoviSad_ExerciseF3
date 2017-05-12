@@ -20,3 +20,4 @@ RefactoringAction 1494613446584 TestPlanetExplorer.java RENAME testMoveUp=>void 
 RefactoringAction 1494613454642 TestPlanetExplorer.java RENAME testMoveUp()=>void testMo() METHOD
 RefactoringAction 1494613456657 TestPlanetExplorer.java RENAME testMo()=>void testMoveN() METHOD
 EditAction 1494613617987 PlanetExplorerException.java 64 0 0 0
+EditAction 1494613623820 PlanetExplorer.java 2191 2 10 0
