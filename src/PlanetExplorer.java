@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 // Before you commit and push write your student ID and finish time here.
 // Finish time:
@@ -11,6 +12,7 @@ public class PlanetExplorer {
 	private int xPos;
 	private String obstacles;
 	private String [] obstaclesArray;
+	ArrayList<Integer> arl = new ArrayList<Integer>();
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -24,7 +26,22 @@ public class PlanetExplorer {
 		this.obstacles=obstacles;
 		
 	}
-	
+	public boolean obstacles()
+	{
+		obstaclesArray = obstacles.split("//(|//,|//)");
+	       for(int i=0;i<obstaclesArray.length;i++)
+	       {
+	    	   arl.add(Integer.parseInt(obstaclesArray[i]));
+	       }
+	       for(int i =0; i<arl.size();i=i+2)
+	       {
+	    	   if(xPos==arl.get(i)&&yPos==arl.get(i+1))
+	    	   {
+	    		   return false;
+	    	   }
+	       }
+	       return true;
+	}
 	
 	public String executeCommand(String command){
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
@@ -36,11 +53,13 @@ public class PlanetExplorer {
 		 * Where xPos and yPos are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-	       obstaclesArray = obstacles.split("//(|//,|//)");
+		/*obstaclesArray = obstacles.split("//(|//,|//)");
 	       for(int i=0;i<obstaclesArray.length;i++)
 	       {
-	    	   
-	       }
+	    	   arl.add(Integer.parseInt(obstaclesArray[i]));
+	       }*/
+	       
+	      
 	       
 	       if(direction=="W" || direction=="E")
 			{
@@ -51,12 +70,17 @@ public class PlanetExplorer {
 				
 				else if(command=="f")
 				{
+					if(obstacles())
 					xPos++;
+					obstacles();
+					
 					
 				}
 				else if(command=="b")
 				{
+					if(obstacles())
 					xPos--;
+					obstacles();
 				}
 				
 			}
@@ -68,11 +92,15 @@ public class PlanetExplorer {
 				}
 				else if(command=="f")
 				{
+					if(obstacles())
 					yPos++;
+					obstacles();
 				}
 				else if(command=="b")
 				{
+					if(obstacles())
 					yPos--;
+					obstacles();
 				}
 			}
 			
@@ -86,10 +114,8 @@ public class PlanetExplorer {
 				
 			}
 			
-			
-			
 			return "("+xPos+","+yPos+","+direction+")";
-		
+		 
 		
 	}
 }
