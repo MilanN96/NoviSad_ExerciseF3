@@ -26,6 +26,13 @@ public class PlanetExplorer {
 		this.obstacles=obstacles;
 		
 	}
+	public PlanetExplorer(int x, int y){
+		
+			this.x=x;
+			this.y=y;
+			
+			
+		}
 	public boolean obstacles()
 	{
 		obstaclesArray = obstacles.split("//(|//,|//)");
